@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="DESKTOP-H7HTBIU" name="junit.TestCalculator" skipped="0" tests="1" time="0.156" timestamp="2019-06-13T18:42:10">
+  <properties>
+    <property name="ant.project.invoked-targets" value="junit" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin" />
+    <property name="java.vm.version" value="25.144-b01" />
+    <property name="ant.library.dir" value="F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\lib" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.6 compiled on May 2 2019" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="user.script" value="" />
+    <property name="user.country" value="US" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="user.dir" value="F:\ANT\SampleWebApp" />
+    <property name="java.runtime.version" value="1.8.0_144-b01" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="basedir" value="F:\ANT\SampleWebApp" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed" />
+    <property name="os.arch" value="amd64" />
+    <property name="ant.project.default-target" value="compile" />
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\" />
+    <property name="ant.core.lib" value="F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\lib\ant.jar" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="user.variant" value="" />
+    <property name="os.name" value="Windows 10" />
+    <property name="ant.home" value="F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6" />
+    <property name="ant.project.name" value="SampleBuild" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\user\Anaconda3;C:\Users\user\Anaconda3\Library\mingw-w64\bin;C:\Users\user\Anaconda3\Library\usr\bin;C:\Users\user\Anaconda3\Library\bin;C:\Users\user\Anaconda3\Scripts;C:\Users\user\Anaconda3\bin;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;F:\Git\cmd;C:\Program Files\Notepad++;C:\Program Files\Perforce;F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\bin;C:\Users\user\AppData\Local\Microsoft\WindowsApps;;." />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.version" value="10.0" />
+    <property name="ant.file" value="F:\ANT\SampleWebApp\build.xml" />
+    <property name="user.home" value="C:\Users\user" />
+    <property name="user.timezone" value="" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="java.class.path" value="F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\lib\ant-launcher.jar;F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\lib\ant-antlr.jar;F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\lib\ant-apache-bcel.jar;F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\lib\ant-apache-bsf.jar;F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\lib\ant-apache-log4j.jar;F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\lib\ant-apache-oro.jar;F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\lib\ant-apache-regexp.jar;F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\lib\ant-apache-resolver.jar;F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\lib\ant-apache-xalan2.jar;F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\lib\ant-commons-logging.jar;F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\lib\ant-commons-net.jar;F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\lib\ant-imageio.jar;F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\lib\ant-jai.jar;F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\lib\ant-javamail.jar;F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\lib\ant-jdepend.jar;F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\lib\ant-jmf.jar;F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\lib\ant-jsch.jar;F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\lib\ant-junit.jar;F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\lib\ant-junit4.jar;F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\lib\ant-junitlauncher.jar;F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\lib\ant-launcher.jar;F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\lib\ant-netrexx.jar;F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\lib\ant-swing.jar;F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\lib\ant-testutil.jar;F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\lib\ant-xz.jar;F:\ANT\apache-ant-1.10.6-bin\apache-ant-1.10.6\lib\ant.jar;C:\Program Files\Java\jdk1.8.0_144\lib\tools.jar" />
+    <property name="user.name" value="user" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre" />
+    <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher junit" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="user.language" value="en" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.version" value="1.8.0_144" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes" />
+    <property name="sun.stderr.encoding" value="cp1252" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="ant.file.SampleBuild" value="F:\ANT\SampleWebApp\build.xml" />
+    <property name="file.separator" value="\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="ant.file.type" value="file" />
+    <property name="sun.stdout.encoding" value="cp1252" />
+    <property name="sun.desktop" value="windows" />
+    <property name="ant.file.type.SampleBuild" value="file" />
+    <property name="sun.cpu.isalist" value="amd64" />
+  </properties>
+  <testcase classname="junit.TestCalculator" name="initializationError" time="0.031">
+    <error message="org/hamcrest/SelfDescribing" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/hamcrest/SelfDescribing
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+Caused by: java.lang.ClassNotFoundException: org.hamcrest.SelfDescribing
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+</error>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
